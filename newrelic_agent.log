@@ -1,0 +1,18 @@
+{"v":0,"level":30,"name":"newrelic","hostname":"MacBook-Pro-116.corp.lego.com","pid":53504,"time":"2022-06-07T13:50:54.249Z","msg":"Using New Relic for Node.js. Agent version: 6.14.0; Node version: v14.18.1."}
+{"v":0,"level":30,"name":"newrelic","hostname":"MacBook-Pro-116.corp.lego.com","pid":53504,"time":"2022-06-07T13:50:54.252Z","msg":"Module not enabled in configuration; not starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"A-47NGZH3.corp.lego.com","pid":36895,"time":"2022-08-04T13:03:06.310Z","msg":"Using New Relic for Node.js. Agent version: 6.14.0; Node version: v14.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"A-47NGZH3.corp.lego.com","pid":36895,"time":"2022-08-04T13:03:06.311Z","msg":"Module not enabled in configuration; not starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"huc1143.corp.lego.com","pid":63519,"time":"2022-10-17T10:50:40.932Z","msg":"Using New Relic for Node.js. Agent version: 6.14.0; Node version: v14.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"huc1143.corp.lego.com","pid":63519,"time":"2022-10-17T10:50:40.934Z","msg":"Module not enabled in configuration; not starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"huc1143.corp.lego.com","pid":64606,"time":"2022-10-17T10:53:07.119Z","msg":"Using New Relic for Node.js. Agent version: 6.14.0; Node version: v14.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"huc1143.corp.lego.com","pid":64606,"time":"2022-10-17T10:53:07.121Z","msg":"Module not enabled in configuration; not starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"a-7tdd063.corp.lego.com","pid":42553,"time":"2022-11-10T11:12:21.349Z","msg":"Using New Relic for Node.js. Agent version: 8.5.0; Node version: v14.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"a-7tdd063.corp.lego.com","pid":42553,"time":"2022-11-10T11:12:21.354Z","msg":"Module disabled in configuration. Not starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"a-7tdd063.corp.lego.com","pid":71914,"time":"2022-11-10T12:18:50.782Z","msg":"Using New Relic for Node.js. Agent version: 8.5.0; Node version: v14.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"a-7tdd063.corp.lego.com","pid":71914,"time":"2022-11-10T12:18:50.786Z","msg":"Module disabled in configuration. Not starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"dkc8025.corp.lego.com","pid":8944,"time":"2022-11-10T14:01:30.982Z","msg":"Using New Relic for Node.js. Agent version: 8.5.0; Node version: v14.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"dkc8025.corp.lego.com","pid":8944,"time":"2022-11-10T14:01:30.986Z","msg":"Module disabled in configuration. Not starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"dkc8025.corp.lego.com","pid":35524,"time":"2022-11-10T15:02:34.816Z","msg":"Using New Relic for Node.js. Agent version: 8.5.0; Node version: v14.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"dkc8025.corp.lego.com","pid":35524,"time":"2022-11-10T15:02:34.820Z","msg":"Module disabled in configuration. Not starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"MacBook-Pro-116.local","pid":36554,"time":"2022-11-23T11:05:55.239Z","msg":"Using New Relic for Node.js. Agent version: 8.5.0; Node version: v14.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"MacBook-Pro-116.local","pid":36554,"time":"2022-11-23T11:05:55.243Z","msg":"Module disabled in configuration. Not starting."}
