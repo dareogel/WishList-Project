@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../../src/functions/deleteWishList/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,WAAW,EAAE,MAAM,wBAAwB,CAAC;AAErD,eAAe;IACb,OAAO,EAAE,GAAG,WAAW,CAAC,SAAS,CAAC,eAAe;IACjD,MAAM,EAAE;QACN;YACE,IAAI,EAAE;gBACJ,MAAM,EAAE,QAAQ;gBAChB,IAAI,EAAE,eAAe;aACtB;SACF;KACF;CACF,CAAC"}

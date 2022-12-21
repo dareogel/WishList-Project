@@ -88,12 +88,16 @@ PriceIndex
 |        |        |        |       |        |
 |        |        |        |       |        |
 
-## HOMEWORK FOR 23/11/2022
+## HOMEWORK FOR 21/12/2022
 
+## PREVIOUS: HOMEWORK FOR 23/11/2022
+
+VV Helped with this in the session
 Push the work we have done so far upto your personal github account.
 
 Google how to add jest to a typescript project. And add it to this project
 
+VV completed in next sessions as got a little stuck :)
 For both the Create and Get endpoints create integration tests to make sure that they are both working (You can use each of the endpoints to be able to check that the other is working as expected.)
 
 ## PREVIOUS: HOMEWORK 09/11/2022
