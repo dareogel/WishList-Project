@@ -1,7 +1,10 @@
 export default {
   type: "object",
   properties: {
-    name: { type: 'string' }
+    SITE: { type: "string" },
+    NAME: { type: "string" },
+    PRICE: { type: "string" },
+    URL: { type: "string" },
   },
-  required: ['name']
+  required: ["NAME"],
 } as const;

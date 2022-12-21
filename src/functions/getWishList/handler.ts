@@ -33,9 +33,19 @@ const getWishList: any = async (event) => {
     });
   }
 
+  // Now we know that we have the data back, lets format it into a more readableWay
+
+  const returnObject = {
+    PRICE: data.Item.PRICE.N,
+    SITE: data.Item.SITE.S,
+    ID: data.Item.ID.S,
+    NAME: data.Item.NAME.S,
+    URL: data.Item.URL.S,
+  };
+
   return formatJSONResponse({
-    message: `Wishlist entry not found!`,
-    data,
+    message: `Wishlist entry found!`,
+    data: returnObject,
   });
 };
 

@@ -90,6 +90,14 @@ PriceIndex
 
 ## HOMEWORK FOR 21/12/2022
 
+Additianal things discussed: destructuring, Debuggind failed deployements in serverless
+
+Complete getWishList and add in the failure point intergration tests for getWishList.
+
+If you want to challenge youself! You have not create 2 endpoints and their integration tests. You now know all the basics of creating an endpoint and interacting with dynamoDb. This challenge is to create the delete endpoint for our wishlist items. So that it takes in an Id and will then delete the item from our database if it exists! When you have done this also have a go at writing the integration tests! Clue: This endpoint should be nearly exactly the same as the getWishListItem endpoint.
+
+with original createWishList endpoint use deleteEndpoint to clean up the tests afterwards
+
 ## PREVIOUS: HOMEWORK FOR 23/11/2022
 
 VV Helped with this in the session
