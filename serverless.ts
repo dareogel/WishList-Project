@@ -80,7 +80,7 @@ const serverlessConfiguration: AWS = {
               AttributeType: "S",
             },
             {
-              AttributeName: "NAME",
+              AttributeName: "SITE_NAME",
               AttributeType: "S",
             },
             {
@@ -99,7 +99,7 @@ const serverlessConfiguration: AWS = {
               IndexName: "NAME_INDEX",
               KeySchema: [
                 {
-                  AttributeName: "NAME",
+                  AttributeName: "SITE_NAME",
                   KeyType: "HASH",
                 },
               ],

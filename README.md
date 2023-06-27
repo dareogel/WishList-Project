@@ -88,13 +88,42 @@ PriceIndex
 |        |        |        |       |        |
 |        |        |        |       |        |
 
+## HOMEWORK FOR 28/03/2023
+
+Started by looking at the homework, found that the reformat of how we reformatted the endpoints has killed alot of the int test, looked through what we had to change.
+Started discussing dynmoDb and its concepts and looking into tits syntax
+
+Discussed plans to implement graphQL server to our project >> decided to utilise the string format which is the same as LEGOs implementation
+
+Homework: Add in unhappy paths to the unit tests. Finnished refactoring any of the int tests that need to be.
+
+## HOMEWORK FOR 14/03/2023
+
+Session details: Started by fixing issues with jest and typescript. Tests where a pain to get started. We then worked on unit tests and mocking explaioning how it workes and how to use it.
+
+Homework: Create unit tests for anything left.
+
+## HOMEWORK FOR 15/02/2023
+
+Session details: We refactored the dynamo db database to not have the name or url resticted prop values. we then delt and looked into issues with the refactored code.
+We then moved onto looking at unit testing and starting to write some of the unit tests. But ran into issues, will be picked up next week.
+
+## HOMEWORK FOR 18/01/2023
+
+Session details: We looked over the last sessions homework and discussed this. We went into what to do when a stack fails to delete. We then proceeded to start work on the update endpoint.
+
+Your homework will be to create the new endpoints integration tests for everything except for name because of the issue we will resolve next time!
+
+NAME is reserved DynamoDB
+https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/ReservedWords.html
+
 ## HOMEWORK FOR 21/12/2022
 
 Additianal things discussed: destructuring, Debuggind failed deployements in serverless
 
 Complete getWishList and add in the failure point intergration tests for getWishList.
 
-If you want to challenge youself! You have not create 2 endpoints and their integration tests. You now know all the basics of creating an endpoint and interacting with dynamoDb. This challenge is to create the delete endpoint for our wishlist items. So that it takes in an Id and will then delete the item from our database if it exists! When you have done this also have a go at writing the integration tests! Clue: This endpoint should be nearly exactly the same as the getWishListItem endpoint.
+If you want to challenge youself! You have now create 2 endpoints and their integration tests. You now know all the basics of creating an endpoint and interacting with dynamoDb. This challenge is to create the delete endpoint for our wishlist items. So that it takes in an Id and will then delete the item from our database if it exists! When you have done this also have a go at writing the integration tests! Clue: This endpoint should be nearly exactly the same as the getWishListItem endpoint.
 
 with original createWishList endpoint use deleteEndpoint to clean up the tests afterwards
 

@@ -13,10 +13,10 @@ describe("createWishList Integration Test", () => {
 
   it("should make a request with correct parameters", async () => {
     const event = {
-      NAME: "Testt",
+      SITE_NAME: "Testt",
       SITE: "TestSite",
       PRICE: "7357",
-      URL: "www.TestSite.com",
+      SITE_URL: "www.TestSite.com",
     };
 
     const { status, data } = await axios({
@@ -28,18 +28,18 @@ describe("createWishList Integration Test", () => {
       data: JSON.stringify(event),
     });
 
-    id = data.data.id;
+    id = data.id;
 
-    expect(status).toBe(200);
+    expect(status).toBe(201);
 
-    expect(data.data.message).toBe("wishlist created");
+    expect(data.message).toBe("wishlist created");
 
     // We are checking that the id exists
-    expect(data.data.id.length).toBeGreaterThan(1);
+    expect(data.id.length).toBeGreaterThan(1);
 
     // Now that we have created the data we use the get endpoint to make sure that it is correct
     const { status: status2, data: data2 } = await axios({
-      url: `${config.API_URL}wishlist/${data.data.id}`, // need to change when base path is sorted
+      url: `${config.API_URL}wishlist/${data.id}`, // need to change when base path is sorted
       method: "GET",
     });
 
@@ -47,9 +47,11 @@ describe("createWishList Integration Test", () => {
 
     expect(data2.message).toBe("Wishlist entry found!");
 
+    console.log({ Dare: data });
+
     const expectedReturnItem = {
       ...event,
-      ID: data.data.id,
+      ID: data.id,
     };
 
     // Check that the data is correct

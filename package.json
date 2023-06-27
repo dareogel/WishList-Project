@@ -4,8 +4,10 @@
   "description": "Serverless aws-nodejs-typescript template",
   "main": "serverless.ts",
   "scripts": {
-    "test": "jest",
-    "deploy": "sls deploy --stage $USER"
+    "test": "jest ./src",
+    "integration:test": "jest ./test",
+    "deploy": "sls deploy --stage $USER",
+    "destroy": "sls remove --stage $USER"
   },
   "engines": {
     "node": ">=14.15.0"

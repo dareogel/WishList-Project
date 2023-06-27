@@ -11,10 +11,10 @@ describe("getWishList Int Tests", () => {
   let wishlistData: wishlistDataProps;
 
   const event = {
-    NAME: "CreateTest",
+    SITE_NAME: "CreateTest",
     SITE: "CreateTestSite",
     PRICE: "7357",
-    URL: "www.CreateTestSite.com",
+    SITE_URL: "www.CreateTestSite.com",
   };
 
   beforeAll(async () => {

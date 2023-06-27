@@ -28,3 +28,13 @@
 {"v":0,"level":30,"name":"newrelic","hostname":"a-685m593.corp.lego.com","pid":6760,"time":"2022-12-21T17:34:10.166Z","msg":"Module disabled in configuration. Not starting."}
 {"v":0,"level":30,"name":"newrelic","hostname":"a-685m593.corp.lego.com","pid":8503,"time":"2022-12-21T18:35:26.591Z","msg":"Using New Relic for Node.js. Agent version: 8.5.0; Node version: v14.19.0."}
 {"v":0,"level":30,"name":"newrelic","hostname":"a-685m593.corp.lego.com","pid":8503,"time":"2022-12-21T18:35:26.595Z","msg":"Module disabled in configuration. Not starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"a-5m6j1z2.corp.lego.com","pid":1133,"time":"2023-01-18T10:29:46.411Z","msg":"Using New Relic for Node.js. Agent version: 8.5.0; Node version: v14.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"a-5m6j1z2.corp.lego.com","pid":1133,"time":"2023-01-18T10:29:46.415Z","msg":"Module disabled in configuration. Not starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"a-5m6j1z2.corp.lego.com","pid":31720,"time":"2023-01-18T11:39:40.683Z","msg":"Using New Relic for Node.js. Agent version: 8.5.0; Node version: v14.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"a-5m6j1z2.corp.lego.com","pid":31720,"time":"2023-01-18T11:39:40.687Z","msg":"Module disabled in configuration. Not starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"MacBook-Pro-116.corp.lego.com","pid":27155,"time":"2023-02-14T11:13:31.287Z","msg":"Using New Relic for Node.js. Agent version: 8.5.0; Node version: v14.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"MacBook-Pro-116.corp.lego.com","pid":27155,"time":"2023-02-14T11:13:31.291Z","msg":"Module disabled in configuration. Not starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"frc0219.corp.lego.com","pid":66151,"time":"2023-02-15T10:56:41.616Z","msg":"Using New Relic for Node.js. Agent version: 8.5.0; Node version: v14.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"frc0219.corp.lego.com","pid":66151,"time":"2023-02-15T10:56:41.620Z","msg":"Module disabled in configuration. Not starting."}
+{"v":0,"level":30,"name":"newrelic","hostname":"dkc8991.corp.lego.com","pid":22552,"time":"2023-03-28T09:26:37.293Z","msg":"Using New Relic for Node.js. Agent version: 8.5.0; Node version: v14.19.0."}
+{"v":0,"level":30,"name":"newrelic","hostname":"dkc8991.corp.lego.com","pid":22552,"time":"2023-03-28T09:26:37.297Z","msg":"Module disabled in configuration. Not starting."}
